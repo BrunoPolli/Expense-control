@@ -1,0 +1,123 @@
+
+.container-items {
+  display: flex;
+}
+
+.container-items p {
+ margin: 0;
+ font-family: monospace;
+}
+
+.add-transaction {
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  background-color: #3A5253;
+  padding: 5px;
+  width: 150px;
+  margin: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.add-transaction:hover {
+  background-color: #5f8586;
+}
+
+.transaction-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #27231E;
+  overflow-y: scroll;
+}
+
+.transaction {
+  width: 200px;
+  border: 2px solid #a1917e;
+  margin: 15px;
+  word-break: break-word;
+  border: 2px solid white;
+}
+
+.transaction-title {
+  font-size: 24px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+.transaction-description {
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+hr {
+  border: 1px dashed white
+}
+
+.form-transaction-title {
+  font-size: 24px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+.form-transaction-description {
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+
+
+.new-transaction-form {
+  display: flex;
+  /* flex: 1; */
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+  background-color: #3A5253;
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.input-transaction {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 40px;
+  font-size: large;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.submit-button-transaction {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.submit-button-transaction:hover {
+  background-color: rgb(185, 185, 185);
+}
+

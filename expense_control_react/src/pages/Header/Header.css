@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 170px;
+  background-image: url('/public/assets/living_room.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: end;
+}
+
+.logout {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: end;
+}
+
+.menu {
+  border: none;
+  outline: none;
+  background-color: white;
+  height: 50px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.menu:hover {
+  background-color: rgb(165, 164, 164);
+}

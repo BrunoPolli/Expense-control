@@ -1,0 +1,121 @@
+
+.add-expense {
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  background-color: #3A5253;
+  padding: 5px;
+  width: 150px;
+  margin: 15px;
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.add-expense:hover {
+  background-color: #5f8586;
+}
+
+.expense-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #27231E;
+  overflow-y: scroll;
+}
+
+.expense {
+  width: 200px;
+  border: 2px solid #a1917e;
+  margin: 15px;
+  word-break: break-word;
+  border: 2px solid white;
+}
+
+.expense-title {
+  font-size: 24px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+.expense-description {
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: auto;
+}
+
+hr {
+  border: 1px dashed white
+}
+
+.form-expense-title {
+  font-size: 24px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: fit-content;
+}
+
+.form-expense-description {
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+}
+
+
+
+.new-expense-form {
+  display: flex;
+  /* flex: 1; */
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+  background-color: #3A5253;
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.input-expense {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 40px;
+  font-size: large;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.select-category {
+  width: 90%;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.submit-button-expense {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.submit-button-expense:hover {
+  background-color: rgb(185, 185, 185);
+}
+

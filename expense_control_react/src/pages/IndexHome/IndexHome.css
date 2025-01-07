@@ -1,0 +1,65 @@
+.index-home-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #27231E;
+  color: white;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-option {
+  width: fit-content;
+  height: 40px;
+  border-radius: 6px;
+  margin: 15px;
+}
+
+.select-title {
+  font-size: 24px;
+  font-family: monospace;
+  color: white;
+  margin: 15px;
+}
+
+.months-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.month-button {
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  background-color: #3A5253;
+  padding: 5px;
+  width: 150px;
+  margin: 15px;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+}
+
+.total {
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+}
+
+.home-item {
+  border: 2px solid white;
+  width: 300px;
+  margin: 15px;
+}
